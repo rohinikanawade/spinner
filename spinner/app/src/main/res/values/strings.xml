@@ -1,0 +1,11 @@
+<resources>
+<string name="app_name">Basic Science Activities</string>
+<string name="country_prompt">Choose a Standard</string>
+
+<string-array name="country_arrays">
+    <item>Fourth Standard</item>
+    <item>Fifth Standard</item>
+    <item>Sixth Standard</item>
+</string-array>
+
+</resources>

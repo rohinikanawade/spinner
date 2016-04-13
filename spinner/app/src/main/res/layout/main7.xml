@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frmLayout"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper2"
+    android:layout_width="fill_parent"  android:layout_height="fill_parent">
+    <TextView android:text="Materials Needed:-" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textColor="#F00"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="times new roman"
+        android:typeface="sans"
+        android:textStyle="bold|italic"/>
+    <ImageView
+        android:id="@+id/oneImgView" android:src="@drawable/cornsyrup"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"/>
+    <ImageView
+        android:id="@+id/twoImgView" android:src="@drawable/water"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/threeImgView" android:src="@drawable/vegetable"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/fourImgView" android:src="@drawable/dawn2"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/fiveImgView" android:src="@drawable/rub"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/sixImgView" android:src="@drawable/honey1"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/sevenImgView" android:src="@drawable/plastic"
+        android:scaleType="fitCenter"
+        android:layout_width="fill_parent"  android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev Page"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
